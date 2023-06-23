@@ -1,0 +1,84 @@
+/*! Reset CSS Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+:root {
+  --bdheight: calc(47rem + 13.05rem);
+}
+
+/*! add Scientist section */
+.home_header,
+.service {
+  width: 100%;
+  height: var(--bdheight);
+  background-color: black;
+}
+
+.scientist_title,
+.service_heading {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 1.25rem;
+}
+
+.scientist_role {
+  color: #d3d32f;
+}
+
+.scientist_description {
+  margin: 3.75rem 0 2.5rem;
+  color: #fff;
+}
+
+.highlight_link {
+  color: #1414b4;
+  text-decoration: none;
+}
+
+.highlight_link:hover {
+  color: blueviolet;
+}
+
+/*! add Service section */
+
+.service {
+  background-color: darkorange;
+  padding: 0 3.75rem;
+  color: #ffffff;
+}
+
+.service_heading {
+  font-size: 3.75rem;
+  letter-spacing: 4px;
+}
+
+.service_info {
+  width: 37%;
+  margin: 100px 0 50px;
+  font-size: 14px;
+}
+
+.service_important,
+.service_important_title {
+    color:#000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.service_important_title {
+    text-transform: upperCase;
+}
+.service_about {
+    width: 25%;
+}
+
+.astornot_photo {
+    width: 25rem;
+    margin-top: 3rem;
+}
